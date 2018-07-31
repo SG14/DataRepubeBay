@@ -1,0 +1,32 @@
+{
+  "capabilities":
+      [
+	
+		  {
+		  "deviceName": "f2366a250803",
+         "version":"8.0.0",
+         "maxInstances": 10,
+         "platformName":"ANDROID"
+        }
+	
+      ],
+  "configuration":
+  {
+        "cleanUpCycle": 5000,
+        "registerCycle": 5000,
+        "nodeTimeout": 120,
+        "timeout": 600000,
+        "nodePolling": 2000,
+                          "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+						  "url":"http://localhost:4568/wd/hub",
+                          "maxSession": 10,
+                           "port": 4567,
+                            "host": "localhost",
+                            "register": true,
+                           "hubPort": 4444,
+                            "hubHost" :"localhost",
+           "role": "node"
+  }
+  
+ 
+}

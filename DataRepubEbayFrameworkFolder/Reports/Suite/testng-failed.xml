@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="deviceID" value="d2"/>
+  <test name="Testd2(failed)" parallel="tests">
+    <parameter name="deviceID" value="d2"/>
+    <classes>
+      <class name="ScenarioComponent.ScenarioSearch">
+        <methods>
+          <include name="Init_App"/>
+        </methods>
+      </class> <!-- ScenarioComponent.ScenarioSearch -->
+      <class name="ScenarioComponent.SearchScenario2">
+        <methods>
+          <include name="Init_App"/>
+          <include name="testsearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ScenarioComponent.SearchScenario2 -->
+    </classes>
+  </test> <!-- Testd2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

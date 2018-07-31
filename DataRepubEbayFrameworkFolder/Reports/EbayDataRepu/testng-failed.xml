@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EbayDataRepu]">
+  <test name="RegSet1(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ScenarioComponent.ScenarioSearch">
+        <methods>
+          <include name="testsearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ScenarioComponent.ScenarioSearch -->
+    </classes>
+  </test> <!-- RegSet1(failed) -->
+</suite> <!-- Failed suite [EbayDataRepu] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121863" started-at="2018-07-31T08:32:39Z" finished-at="2018-07-31T08:34:41Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ScenarioSearch.testsearch(java.util.Map)[pri:0, instance:ScenarioComponent.ScenarioSearch@1f554b06]" name="testsearch" class="ScenarioComponent.ScenarioSearch"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="121863" started-at="2018-07-31T08:32:39Z" finished-at="2018-07-31T08:34:41Z">
+      <class name="ScenarioComponent.ScenarioSearch">
+        <test-method status="PASS" signature="Init_App()[pri:0, instance:ScenarioComponent.ScenarioSearch@1f554b06]" name="Init_App" duration-ms="36801" started-at="2018-07-31T14:02:39Z" finished-at="2018-07-31T14:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init_App -->
+        <test-method status="PASS" signature="testsearch(java.util.Map)[pri:0, instance:ScenarioComponent.ScenarioSearch@1f554b06]" name="testsearch" duration-ms="84824" started-at="2018-07-31T14:03:16Z" data-provider="dp_search" finished-at="2018-07-31T14:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute_Flag=Y, Search_Item1=Reebok Zpump Shoes, TC_ID=EB_01, Script_name=ValidSearch, Search_Item2=Tommy Hilfiger men watch, Order_Set=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearch -->
+      </class> <!-- ScenarioComponent.ScenarioSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

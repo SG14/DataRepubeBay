@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<test name="Testd1">
+ 
+  <parameter name="deviceID" value="d1"></parameter>
+    <classes>
+      <class name="ScenarioComponent.ScenarioSearch"/>
+    </classes>
+  </test> <!-- Test -->
+
+     <test name="Testd2">
+ 
+  <parameter name="deviceID" value="d2"></parameter>
+    <classes>
+      <class name="ScenarioComponent.SearchScenario2"/>
+    </classes>
+  </test> <!-- Test -->
+     
+</suite> <!-- Suite -->
